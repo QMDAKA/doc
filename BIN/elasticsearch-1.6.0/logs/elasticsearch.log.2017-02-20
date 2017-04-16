@@ -1,0 +1,17 @@
+[2017-02-20 14:12:38,567][INFO ][node                     ] [Katherine "Kitty" Pryde] version[1.6.0], pid[10710], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-02-20 14:12:38,568][INFO ][node                     ] [Katherine "Kitty" Pryde] initializing ...
+[2017-02-20 14:12:38,795][INFO ][plugins                  ] [Katherine "Kitty" Pryde] loaded [analysis-icu], sites []
+[2017-02-20 14:12:39,086][INFO ][env                      ] [Katherine "Kitty" Pryde] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [7.6gb], net total_space [34.8gb], types [ext4]
+[2017-02-20 14:12:44,486][INFO ][node                     ] [Katherine "Kitty" Pryde] initialized
+[2017-02-20 14:12:44,487][INFO ][node                     ] [Katherine "Kitty" Pryde] starting ...
+[2017-02-20 14:12:44,718][INFO ][transport                ] [Katherine "Kitty" Pryde] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.2.68:9300]}
+[2017-02-20 14:12:44,781][INFO ][discovery                ] [Katherine "Kitty" Pryde] elasticsearch/LuXEARzWQu-1_B9sXbktSw
+[2017-02-20 14:12:48,575][INFO ][cluster.service          ] [Katherine "Kitty" Pryde] new_master [Katherine "Kitty" Pryde][LuXEARzWQu-1_B9sXbktSw][quangminh-K56CB][inet[/192.168.2.68:9300]], reason: zen-disco-join (elected_as_master)
+[2017-02-20 14:12:48,701][INFO ][http                     ] [Katherine "Kitty" Pryde] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.2.68:9200]}
+[2017-02-20 14:12:48,701][INFO ][node                     ] [Katherine "Kitty" Pryde] started
+[2017-02-20 14:12:48,993][INFO ][gateway                  ] [Katherine "Kitty" Pryde] recovered [2] indices into cluster_state
+[2017-02-20 14:12:50,134][WARN ][index.mapper             ] [Katherine "Kitty" Pryde] [viblo] Type [react.js] contains a '.', it is recommended not to include it within a type name
+[2017-02-20 14:46:09,082][INFO ][node                     ] [Katherine "Kitty" Pryde] stopping ...
+[2017-02-20 14:46:09,154][INFO ][node                     ] [Katherine "Kitty" Pryde] stopped
+[2017-02-20 14:46:09,154][INFO ][node                     ] [Katherine "Kitty" Pryde] closing ...
+[2017-02-20 14:46:09,167][INFO ][node                     ] [Katherine "Kitty" Pryde] closed

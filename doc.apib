@@ -1,0 +1,224 @@
+FORMAT: 1A
+HOST: http://103.18.7.212:32784/
+
+# Get docs data API
+## Descriptions
+Trả về thông tin tài liệu.
+## get list docs [/docs/{?page,size}]
+
+### Get all list docs [GET]
++ Parameters
+
+    + page: `1` (integer)
+    + size: '15'(integer)
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+ + Body
+
+            {
+                "content": [
+                {
+                    "id":5,
+                    "tilte":"Open authentication",
+                    "link": "http://103.18.7.212:32781/test/UploadDoc/js/file/source/1.png",
+
+                },
+                {
+                    "id":6,
+                    "tilte":"Open authentication",
+                    "link": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png",
+
+                },
+                ],
+                "totalPages": 2,
+                "totalElements": 18,
+                "last": false,
+                "sort": null,
+                "numberOfElements": 15,
+                "first": true,
+                "size": 15,
+                "number": 0
+            }
+
+### Create docs [POST]
+## Descriptions
+Tạo mới thông tin tài liệu
++ Request (application/json)
+
+   + Headers
+
+            oauthcode:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
+    + Body
+
+            {
+                "tilte":"Open authentication",
+                "link": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png"
+            }
+
+
+
+
+
++ Response 201 (application/json)
+    + Body
+
+                {
+                    "message" : "OK"
+                }
+
++ Response 400 (application/json)
+    + Body
+
+                {
+                    "message" : "title or link is blank"
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+# Group  api by id
+
+
+#  docs data by api
+
+## docs by id [/docs/{id}]
+## Descriptions
+Trả thông tin tài liệu theo id
+
++ Parameters
+    + id: '1' (integer)
+### Get 1 item [GET]
+
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+ + Body
+
+            {
+                "id":1,
+                "tilte":"Open authentication",
+                "link": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png"
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+              "message":"Not Found"
+            }
+
+
+
+### Delete 1 item [DELETE]
+## Descriptions
+xóa về thông tin tài liệu theo id
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+              "message":"Deleted"
+            }
+
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+              "message":"Not Found"
+            }
+
+
+### Put 1 item [PUT]
+## Descriptions
+Cập nhật thông tin tài liệu theo id
++ Request (application/json)
+   + Headers
+
+            oauthcode:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
+    + Body
+
+            {
+                "tilte":"Open authentication",
+                "link": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png"
+            }
+
+
+
+
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+              "message":"OK"
+            }
+
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+              "message":"Not Found"
+            }
+
+
+
+
+# Group search api
+# Get docs by query search
+## Descriptions
+Trả về thông tin  theo từ khóa từ kiếm.
+
+## get news by id [/docs/searchByTitle/{?page,size,title}]
++ Parameters
+    + page: `1` (integer)
+    + size: '15'(integer)
+    + title: 'open'(string)
+### Get list item by search [GET]
+
++ Request (application/json)
+
+    + Headers
+
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+ + Body
+
+
+            {
+                "id":1,
+                "tilte":"Open authentication",
+                "link": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png"
+            }

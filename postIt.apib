@@ -1,0 +1,202 @@
+FORMAT: 1A
+HOST: http://103.18.7.212:32784/
+
+# Get categories data API
+## Descriptions
+Lấy về thông tin các categories IT
+tìm kiếm các categories
+
+## get list categories [/postITs/categories{?page,size,query}]
+
+### Get all list news [GET]
++ Parameters
+
+    + page: 0 (integer)
+    + size: 5(integer)
+    + query: ' ' (string)
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+
+ + Body
+
+             {
+                "content": [
+                        {
+                            "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                            "name": "TIL",
+                            "title": "til"
+                        },
+                        {
+                            "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/javascript.png_eguefhvxx2",
+                            "name": "Javascript",
+                            "title": "javascript"
+                        },
+                        {
+                            "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/ruby.png_j7hytj9lae",
+                            "name": "Ruby",
+                            "title": "ruby"
+                        },
+                        {
+                            "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/linux.png_7w4sf0riqa",
+                            "name": "Linux",
+                            "title": "linux"
+                        },
+                        {
+                            "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/php.png_w8t4oubsga",
+                            "name": "PHP",
+                            "title": "php"
+                        }
+                    ]
+            }
+
+
+#Group api by category
+
+## get all post by category [/postITs/categories/{category}{?page,size}]
+## Descriptions
++Lấy ra list bài viết đc phân loại theo chủ đề
++Sử dụng trường name ở api đầu tiên cho biến category
+
+### Get list post by category [GET]
+
++ Parameter
+
+      + page : 0 (integer)
+      + size : 15 (integer)
+      + category: Ruby(string)
+
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+
+ + Body
+
+             {
+              "content": [
+                  {
+                      "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                      "byCategory": "TIL",
+                      "id": "AVtHYpexwFuVEZ-KmDNN",
+                      "title": "Kiểm tra url có tồn tại hay không ?"
+                      },
+                  {
+                      "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                      "byCategory": "TIL",
+                      "id": "AVtHYpQ8wFuVEZ-KmDNM",
+                      "title": "error_chain! Chưa bao giờ quản lý error đơn giản đến thế !"
+                      },
+                  {
+                      "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                      "byCategory": "TIL",
+                      "id": "AVtHYpqfwFuVEZ-KmDNO",
+                      "title": "Agile - Scrum: Phần 2 - Cách thức phát triển phần mềm trong Scrum"
+                      },
+                  {
+                      "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                      "byCategory": "TIL",
+                      "id": "AVtHYp4SwFuVEZ-KmDNP",
+                      "title": "Cài đặt môi trường cho laravel dùng docker"
+                      }
+              ]
+            }
+
+
+
+# Group get post by ID
+
+## get 1 post by post id  [/postITs/categories/{category}/{postID}]
+## Descriptions
++Lấy ra 1 bai viet dua vao post id dung ở API phía trên
+
+### Get post by postID [GET]
+
++ Parameter
+
+      + postID : AVtHYp4SwFuVEZ (string)
+      + category: Ruby(string)
+
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+
+    + Body
+
+              {
+                        "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                        "byCategory": "TIL",
+                        "title": "Kiểm tra url có tồn tại hay không ?",
+                        "body": "<h2>Kiểm tra url có tồn tại hay không ?</h2> \n<h3>Ngôn ngữ Ruby</h3> \n<pre><code class=\"ruby\">  require 'net/http'\n  require 'open-uri'\n\n  def working_url?(url_str)\n    url = URI.parse(url_str)\n    Net::HTTP.start(url.host, url.port) do |http|\n      http.head(url.request_uri).code == '200'\n    end\n  rescue\n    false\n  end\n</code></pre> \n<h3>Ngôn ngữ PHP</h3> \n<p><strong>Cách 1: Sử dụng get_headers Function</strong></p> \n<pre><code class=\"php\">$url = \"http://www.domain.com/demo.jpg\";\n$headers = @get_headers($url);\nif(strpos($headers[0],'404') === false)\n{\n  echo \"URL Exists\";\n}\nelse\n{\n  echo \"URL Not Exists\";\n}\n</code></pre> \n<p><strong>Cách 2 : Sử dụng cURL</strong></p> \n<pre><code class=\"php\">$url = \"http://www.domain.com/demo.jpg\";\n$curl = curl_init($url);\ncurl_setopt($curl, CURLOPT_NOBODY, true);\n$result = curl_exec($curl);\nif ($result !== false)\n{\n  $statusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);\n  if ($statusCode == 404)\n  {\n    echo \"URL Not Exists\"\n  }\n  else\n  {\n     echo \"URL Exists\";\n  }\n}\nelse\n{\n  echo \"URL not Exists\";\n}\n</code></pre> \n<h3>Ngôn ngữ Python</h3> \n<p>Cách 1: </p> \n<pre><code class=\"python\">from urllib2 import urlopen\ncode = urlopen(\"https://kipalog.com\").code\nif code == 200:\n   print \"Exists!\"\n# via http://stackoverflow.com/questions/1966086/how-can-i-determine-if-anything-at-the-given-url-does-exist\n\n</code></pre> \n<p>Cách 2: </p> \n<pre><code class=\"python\">import urllib2\nret = urllib2.urlopen('https://kipalog.com')\nif ret.code == 200:\n    print \"Exists!\"\n# via http://stackoverflow.com/questions/7347888/how-do-i-check-if-a-file-on-http-exists-using-python-django\n</code></pre> \n<p>Nguồn: google </p> \n<h2>Bổ sung :</h2> \n<h3>Shell</h3> \n<p>Nguồn : bác <a href=\"/users/xluffy/mypage\" class=\"user-mention\" title=\"xluffy\">@xluffy</a>. Cảm ơn bác rất nhiều !</p> \n<pre><code>#!/bin/bash\n\nhttp_code=$(curl -I -s -o /dev/null -w \"%{http_code}\" \"https://kipalog.com/\")\n\nif [ \"$http_code\" == \"200\" ]; then\n  echo \"Exist!!!\"\nfi\n</code></pre>",
+                        "createAt": 1491411600000,
+                        "url": null,
+                        "dup": false
+                  }
+
+
+# Group api search all
+
+## get list post by query  [/postITs/search{?page,size,query}]
+## Descriptions
++Tìm kiếm tất cả bài viết qua câu truy vấn
+
+### Get post by query search  [GET]
+
++ Parameter
+
+    + page: 0 (integer)
+    + size: 5(integer)
+    + query: 'java is the best  ' (string)
+
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
+
+
+
++ Response 200 (application/json)
+
+ + Body
+
+             {
+              "content": [
+                  {
+                      "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                      "byCategory": "TIL",
+                      "id": "AVtHYpexwFuVEZ-KmDNN",
+                      "title": "Kiểm tra url có tồn tại hay không ?"
+                      },
+                  {
+                      "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                      "byCategory": "TIL",
+                      "id": "AVtHYpQ8wFuVEZ-KmDNM",
+                      "title": "error_chain! Chưa bao giờ quản lý error đơn giản đến thế !"
+                      },
+                  {
+                      "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                      "byCategory": "TIL",
+                      "id": "AVtHYpqfwFuVEZ-KmDNO",
+                      "title": "Agile - Scrum: Phần 2 - Cách thức phát triển phần mềm trong Scrum"
+                      },
+                  {
+                      "image": "https://s3-ap-southeast-1.amazonaws.com/kipalog.com/til.png_b0dqmtk6rn",
+                      "byCategory": "TIL",
+                      "id": "AVtHYp4SwFuVEZ-KmDNP",
+                      "title": "Cài đặt môi trường cho laravel dùng docker"
+                      }
+              ]
+            }

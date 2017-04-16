@@ -1,0 +1,50 @@
+FORMAT: 1A
+HOST: http://103.18.7.212:32784/
+
+# test authcode data API
+## Descriptions
+kiểm tra authcode
+## get list news [/authcodes/test]
+
+### test authcode [GET]
+
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+              "message":"OK"
+            }
+
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+
+              "timestamp": 1492314278852,
+              "status": 404,
+              "error": "Not Found",
+              "message": "Missing Header or Authcode Not In DB",
+              "path": "/authcodes/test"
+            }
+
++ Response 400 (application/json)
+
+    + Body
+
+            {
+
+              "timestamp": 1492314278852,
+              "status": 400,
+              "error": "Bad Request",
+              "message": "Authcode expired",
+              "path": "/authcodes/test"
+            }

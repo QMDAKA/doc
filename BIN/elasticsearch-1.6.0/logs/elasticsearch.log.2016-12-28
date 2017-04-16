@@ -1,0 +1,17 @@
+[2016-12-28 13:53:28,087][INFO ][node                     ] [Peggy Carter] version[1.6.0], pid[6860], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2016-12-28 13:53:28,088][INFO ][node                     ] [Peggy Carter] initializing ...
+[2016-12-28 13:53:28,297][INFO ][plugins                  ] [Peggy Carter] loaded [analysis-icu], sites []
+[2016-12-28 13:53:28,378][INFO ][env                      ] [Peggy Carter] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [14.9gb], net total_space [34.8gb], types [ext4]
+[2016-12-28 13:53:33,104][INFO ][node                     ] [Peggy Carter] initialized
+[2016-12-28 13:53:33,105][INFO ][node                     ] [Peggy Carter] starting ...
+[2016-12-28 13:53:33,234][INFO ][transport                ] [Peggy Carter] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.137.210:9300]}
+[2016-12-28 13:53:33,257][INFO ][discovery                ] [Peggy Carter] elasticsearch/CSehYFNNRDWDIku_XEEdWQ
+[2016-12-28 13:53:37,049][INFO ][cluster.service          ] [Peggy Carter] new_master [Peggy Carter][CSehYFNNRDWDIku_XEEdWQ][quangminh-K56CB][inet[/192.168.137.210:9300]], reason: zen-disco-join (elected_as_master)
+[2016-12-28 13:53:37,163][INFO ][http                     ] [Peggy Carter] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.137.210:9200]}
+[2016-12-28 13:53:37,164][INFO ][node                     ] [Peggy Carter] started
+[2016-12-28 13:53:37,495][INFO ][gateway                  ] [Peggy Carter] recovered [1] indices into cluster_state
+[2016-12-28 13:53:39,079][WARN ][index.mapper             ] [Peggy Carter] [viblo] Type [react.js] contains a '.', it is recommended not to include it within a type name
+[2016-12-28 16:01:53,030][INFO ][node                     ] [Peggy Carter] stopping ...
+[2016-12-28 16:01:54,174][INFO ][node                     ] [Peggy Carter] stopped
+[2016-12-28 16:01:54,175][INFO ][node                     ] [Peggy Carter] closing ...
+[2016-12-28 16:01:54,250][INFO ][node                     ] [Peggy Carter] closed

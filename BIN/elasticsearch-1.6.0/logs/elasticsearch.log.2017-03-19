@@ -1,0 +1,489 @@
+[2017-03-19 15:39:22,167][INFO ][node                     ] [Luchino Nefaria] version[1.6.0], pid[5901], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-03-19 15:39:22,169][INFO ][node                     ] [Luchino Nefaria] initializing ...
+[2017-03-19 15:39:22,390][INFO ][plugins                  ] [Luchino Nefaria] loaded [analysis-icu], sites []
+[2017-03-19 15:39:22,526][INFO ][env                      ] [Luchino Nefaria] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [6.7gb], net total_space [34.8gb], types [ext4]
+[2017-03-19 15:39:27,692][INFO ][node                     ] [Luchino Nefaria] initialized
+[2017-03-19 15:39:27,693][INFO ][node                     ] [Luchino Nefaria] starting ...
+[2017-03-19 15:39:27,914][INFO ][transport                ] [Luchino Nefaria] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.89:9300]}
+[2017-03-19 15:39:27,952][INFO ][discovery                ] [Luchino Nefaria] elasticsearch/9HEivSObSwSEcdvrGdaDBw
+[2017-03-19 15:39:31,762][INFO ][cluster.service          ] [Luchino Nefaria] new_master [Luchino Nefaria][9HEivSObSwSEcdvrGdaDBw][quangminh-K56CB][inet[/192.168.1.89:9300]], reason: zen-disco-join (elected_as_master)
+[2017-03-19 15:39:31,822][INFO ][http                     ] [Luchino Nefaria] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.89:9200]}
+[2017-03-19 15:39:31,822][INFO ][node                     ] [Luchino Nefaria] started
+[2017-03-19 15:39:31,970][INFO ][gateway                  ] [Luchino Nefaria] recovered [3] indices into cluster_state
+[2017-03-19 16:41:41,839][INFO ][cluster.metadata         ] [Luchino Nefaria] [kipalog] update_mapping [categories] (dynamic)
+[2017-03-19 16:50:23,536][INFO ][cluster.metadata         ] [Luchino Nefaria] [kipalog] deleting index
+[2017-03-19 16:56:27,637][INFO ][cluster.metadata         ] [Luchino Nefaria] [kipalog] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [categories]
+[2017-03-19 16:56:28,242][INFO ][cluster.metadata         ] [Luchino Nefaria] [kipalog] update_mapping [categories] (dynamic)
+[2017-03-19 17:06:00,833][INFO ][cluster.metadata         ] [Luchino Nefaria] [kipalog] deleting index
+[2017-03-19 17:06:02,565][INFO ][cluster.metadata         ] [Luchino Nefaria] [kipalog] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2017-03-19 18:35:21,540][INFO ][node                     ] [Luchino Nefaria] stopping ...
+[2017-03-19 18:35:22,030][INFO ][node                     ] [Luchino Nefaria] stopped
+[2017-03-19 18:35:22,031][INFO ][node                     ] [Luchino Nefaria] closing ...
+[2017-03-19 18:35:22,040][INFO ][node                     ] [Luchino Nefaria] closed
+[2017-03-19 22:32:46,676][INFO ][node                     ] [Jarella] version[1.6.0], pid[10954], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-03-19 22:32:46,690][INFO ][node                     ] [Jarella] initializing ...
+[2017-03-19 22:32:46,934][INFO ][plugins                  ] [Jarella] loaded [analysis-icu], sites []
+[2017-03-19 22:32:47,052][INFO ][env                      ] [Jarella] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [6.8gb], net total_space [34.8gb], types [ext4]
+[2017-03-19 22:32:52,471][INFO ][node                     ] [Jarella] initialized
+[2017-03-19 22:32:52,473][INFO ][node                     ] [Jarella] starting ...
+[2017-03-19 22:32:53,037][INFO ][transport                ] [Jarella] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.89:9300]}
+[2017-03-19 22:32:53,103][INFO ][discovery                ] [Jarella] elasticsearch/x2yQtBA2SkOXpXPNpyvYWA
+[2017-03-19 22:32:56,921][INFO ][cluster.service          ] [Jarella] new_master [Jarella][x2yQtBA2SkOXpXPNpyvYWA][quangminh-K56CB][inet[/192.168.1.89:9300]], reason: zen-disco-join (elected_as_master)
+[2017-03-19 22:32:56,972][INFO ][http                     ] [Jarella] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.89:9200]}
+[2017-03-19 22:32:56,973][INFO ][node                     ] [Jarella] started
+[2017-03-19 22:32:57,163][INFO ][gateway                  ] [Jarella] recovered [3] indices into cluster_state
+[2017-03-19 22:35:02,375][INFO ][cluster.metadata         ] [Jarella] [kipalog] deleting index
+[2017-03-19 22:35:03,549][INFO ][cluster.metadata         ] [Jarella] [kipalog] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2017-03-19 22:35:14,386][INFO ][cluster.metadata         ] [Jarella] [kipalog] update_mapping [categories] (dynamic)
+[2017-03-19 22:52:56,820][INFO ][cluster.metadata         ] [Jarella] [kipalog] deleting index
+[2017-03-19 22:52:58,128][INFO ][cluster.metadata         ] [Jarella] [kipalog] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2017-03-19 22:57:14,605][INFO ][cluster.metadata         ] [Jarella] [kipalog] update_mapping [categories] (dynamic)
+[2017-03-19 23:58:20,326][INFO ][cluster.metadata         ] [Jarella] [kipalog] update_mapping [TIL] (dynamic)
+[2017-03-19 23:58:35,347][DEBUG][action.search.type       ] [Jarella] [kipalog][3], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@217d9f34] lastShard [true]
+org.elasticsearch.search.SearchParseException: [kipalog][3]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:58:35,350][DEBUG][action.search.type       ] [Jarella] [kipalog][1], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@217d9f34]
+org.elasticsearch.search.SearchParseException: [kipalog][1]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:58:35,348][DEBUG][action.search.type       ] [Jarella] [kipalog][2], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@217d9f34] lastShard [true]
+org.elasticsearch.search.SearchParseException: [kipalog][2]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:58:35,348][DEBUG][action.search.type       ] [Jarella] [kipalog][4], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@217d9f34] lastShard [true]
+org.elasticsearch.search.SearchParseException: [kipalog][4]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:58:35,348][DEBUG][action.search.type       ] [Jarella] [kipalog][0], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@217d9f34] lastShard [true]
+org.elasticsearch.search.SearchParseException: [kipalog][0]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:58:35,362][DEBUG][action.search.type       ] [Jarella] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [kipalog][1]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:59:11,746][INFO ][cluster.metadata         ] [Jarella] [kipalog] deleting index
+[2017-03-19 23:59:12,878][INFO ][cluster.metadata         ] [Jarella] [kipalog] creating index, cause [api], templates [], shards [5]/[1], mappings [_default_]
+[2017-03-19 23:59:27,162][INFO ][cluster.metadata         ] [Jarella] [kipalog] update_mapping [categories] (dynamic)
+[2017-03-19 23:59:28,618][INFO ][cluster.metadata         ] [Jarella] [kipalog] update_mapping [TIL] (dynamic)
+[2017-03-19 23:59:43,668][DEBUG][action.search.type       ] [Jarella] [kipalog][2], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7024bf57] lastShard [true]
+org.elasticsearch.search.SearchParseException: [kipalog][2]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:59:43,669][DEBUG][action.search.type       ] [Jarella] [kipalog][1], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7024bf57] lastShard [true]
+org.elasticsearch.search.SearchParseException: [kipalog][1]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:59:43,670][DEBUG][action.search.type       ] [Jarella] [kipalog][4], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7024bf57]
+org.elasticsearch.search.SearchParseException: [kipalog][4]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:59:43,673][DEBUG][action.search.type       ] [Jarella] All shards failed for phase: [query]
+org.elasticsearch.search.SearchParseException: [kipalog][4]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:59:43,669][DEBUG][action.search.type       ] [Jarella] [kipalog][0], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7024bf57] lastShard [true]
+org.elasticsearch.search.SearchParseException: [kipalog][0]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more
+[2017-03-19 23:59:43,668][DEBUG][action.search.type       ] [Jarella] [kipalog][3], node[x2yQtBA2SkOXpXPNpyvYWA], [P], s[STARTED]: Failed to execute [org.elasticsearch.action.search.SearchRequest@7024bf57] lastShard [true]
+org.elasticsearch.search.SearchParseException: [kipalog][3]: from[-1],size[1]: Parse Failure [Failed to parse source [{"size":1,"query":{"query_string":{"query":"Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x","fields":["title"],"analyze_wildcard":true,"minimum_should_match":"100%"}},"fields":"title"}]]
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:735)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:560)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:532)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:294)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:231)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$5.call(SearchServiceTransportAction.java:228)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$23.run(SearchServiceTransportAction.java:559)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.index.query.QueryParsingException: [kipalog] Failed to parse query [Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x]
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:250)
+	at org.elasticsearch.index.query.QueryParseContext.parseInnerQuery(QueryParseContext.java:302)
+	at org.elasticsearch.index.query.IndexQueryParserService.innerParse(IndexQueryParserService.java:382)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:281)
+	at org.elasticsearch.index.query.IndexQueryParserService.parse(IndexQueryParserService.java:276)
+	at org.elasticsearch.search.query.QueryParseElement.parse(QueryParseElement.java:33)
+	at org.elasticsearch.search.SearchService.parseSource(SearchService.java:719)
+	... 9 more
+Caused by: org.apache.lucene.queryparser.classic.ParseException: Cannot parse 'Lỗi Inferred type containing Product khi sử dụng Submitting multipart/form data ở play 2.5.x': Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:137)
+	at org.apache.lucene.queryparser.classic.MapperQueryParser.parse(MapperQueryParser.java:891)
+	at org.elasticsearch.index.query.QueryStringQueryParser.parse(QueryStringQueryParser.java:233)
+	... 15 more
+Caused by: org.apache.lucene.queryparser.classic.TokenMgrError: Lexical error at line 1, column 93.  Encountered: <EOF> after : "/form data \u1edf play 2.5.x"
+	at org.apache.lucene.queryparser.classic.QueryParserTokenManager.getNextToken(QueryParserTokenManager.java:1133)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_scan_token(QueryParser.java:601)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3R_2(QueryParser.java:484)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_3_1(QueryParser.java:491)
+	at org.apache.lucene.queryparser.classic.QueryParser.jj_2_1(QueryParser.java:477)
+	at org.apache.lucene.queryparser.classic.QueryParser.Clause(QueryParser.java:228)
+	at org.apache.lucene.queryparser.classic.QueryParser.Query(QueryParser.java:214)
+	at org.apache.lucene.queryparser.classic.QueryParser.TopLevelQuery(QueryParser.java:172)
+	at org.apache.lucene.queryparser.classic.QueryParserBase.parse(QueryParserBase.java:127)
+	... 17 more

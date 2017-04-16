@@ -1,0 +1,89 @@
+FORMAT: 1A
+HOST: http://103.18.7.212:32784/
+
+# hotkey API
+## Descriptions
+Lọc ra các từ khóa hot
+## get list hotkey [/hotkeys/{?size}]
+
+### get list hotkey [GET]
+
++ Parameters
+
+    + size: `15` (integer)
+
++ Request (application/json)
+
+      + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                  {
+                      "content": [
+                        {
+                          "id": 2,
+                          "word": "rails",
+                          "total": 47
+                        },
+                        {
+                          "id": 8,
+                          "word": "java spring",
+                          "total": 25
+                        },
+                        {
+                          "id": 3,
+                          "word": "a",
+                          "total": 20
+                        },
+                        {
+                          "id": 1,
+                          "word": "java",
+                          "total": 18
+                        },
+                        {
+                          "id": 12,
+                          "word": "nghia",
+                          "total": 6
+                        },
+                        {
+                          "id": 21,
+                          "word": "android",
+                          "total": 5
+                        },
+                        {
+                          "id": 10,
+                          "word": "r",
+                          "total": 5
+                        },
+                        {
+                          "id": 4,
+                          "word": "ruby",
+                          "total": 5
+                        },
+                        {
+                          "id": 7,
+                          "word": "m",
+                          "total": 4
+                        },
+                        {
+                          "id": 11,
+                          "word": "hh",
+                          "total": 3
+                        }
+                      ],
+                      "totalPages": 3,
+                      "totalElements": 30,
+                      "last": false,
+                      "sort": null,
+                      "numberOfElements": 10,
+                      "first": true,
+                      "size": 10,
+                      "number": 0
+                    }
+
+            }

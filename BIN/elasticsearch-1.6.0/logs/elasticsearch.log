@@ -1,0 +1,50 @@
+[2017-04-12 10:17:40,033][INFO ][node                     ] [Nobilus] version[1.6.0], pid[7035], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-04-12 10:17:40,041][INFO ][node                     ] [Nobilus] initializing ...
+[2017-04-12 10:17:40,274][INFO ][plugins                  ] [Nobilus] loaded [analysis-icu], sites []
+[2017-04-12 10:17:40,484][INFO ][env                      ] [Nobilus] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [5.9gb], net total_space [34.8gb], types [ext4]
+[2017-04-12 10:17:45,473][INFO ][node                     ] [Nobilus] initialized
+[2017-04-12 10:17:45,473][INFO ][node                     ] [Nobilus] starting ...
+[2017-04-12 10:17:45,786][INFO ][transport                ] [Nobilus] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.89:9300]}
+[2017-04-12 10:17:45,824][INFO ][discovery                ] [Nobilus] elasticsearch/qAL1yAVuQoackKdwsxp4EQ
+[2017-04-12 10:17:49,663][INFO ][cluster.service          ] [Nobilus] new_master [Nobilus][qAL1yAVuQoackKdwsxp4EQ][quangminh-K56CB][inet[/192.168.1.89:9300]], reason: zen-disco-join (elected_as_master)
+[2017-04-12 10:17:49,911][INFO ][http                     ] [Nobilus] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.89:9200]}
+[2017-04-12 10:17:49,913][INFO ][node                     ] [Nobilus] started
+[2017-04-12 10:17:50,110][INFO ][gateway                  ] [Nobilus] recovered [4] indices into cluster_state
+[2017-04-12 10:32:24,246][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv1992] (dynamic)
+[2017-04-12 10:32:43,917][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv1999] (dynamic)
+[2017-04-12 10:36:14,314][INFO ][cluster.metadata         ] [Nobilus] [arxiv] deleting index
+[2017-04-12 10:36:15,694][INFO ][cluster.metadata         ] [Nobilus] [arxiv] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-04-12 10:36:40,241][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv1992] (dynamic)
+[2017-04-12 10:37:27,436][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv1999] (dynamic)
+[2017-04-12 10:40:57,486][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv2459] (dynamic)
+[2017-04-12 10:41:51,173][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv2579] (dynamic)
+[2017-04-12 10:41:54,101][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv2021] (dynamic)
+[2017-04-12 10:49:32,608][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv1993] (dynamic)
+[2017-04-12 10:50:15,841][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv0] (dynamic)
+[2017-04-12 11:01:23,218][INFO ][cluster.metadata         ] [Nobilus] [[arxiv]] remove_mapping [[arxiv1993]]
+[2017-04-12 11:13:20,636][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv1993] (dynamic)
+[2017-04-12 11:20:07,975][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv2459] (dynamic)
+[2017-04-12 11:20:19,507][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv2579] (dynamic)
+[2017-04-12 11:57:26,912][INFO ][cluster.metadata         ] [Nobilus] [[arxiv]] remove_mapping [[arxiv1993]]
+[2017-04-12 11:58:41,429][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv1993] (dynamic)
+[2017-04-12 12:05:22,612][INFO ][cluster.metadata         ] [Nobilus] [arxiv] update_mapping [arxiv1999] (dynamic)
+[2017-04-12 12:16:13,779][INFO ][node                     ] [Nobilus] stopping ...
+[2017-04-12 12:16:13,825][INFO ][node                     ] [Nobilus] stopped
+[2017-04-12 12:16:13,827][INFO ][node                     ] [Nobilus] closing ...
+[2017-04-12 12:16:13,835][INFO ][node                     ] [Nobilus] closed
+[2017-04-12 15:31:25,565][INFO ][node                     ] [Dust] version[1.6.0], pid[7741], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-04-12 15:31:25,582][INFO ][node                     ] [Dust] initializing ...
+[2017-04-12 15:31:25,812][INFO ][plugins                  ] [Dust] loaded [analysis-icu], sites []
+[2017-04-12 15:31:25,953][INFO ][env                      ] [Dust] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [5.9gb], net total_space [34.8gb], types [ext4]
+[2017-04-12 15:31:30,797][INFO ][node                     ] [Dust] initialized
+[2017-04-12 15:31:30,797][INFO ][node                     ] [Dust] starting ...
+[2017-04-12 15:31:30,947][INFO ][transport                ] [Dust] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.89:9300]}
+[2017-04-12 15:31:30,973][INFO ][discovery                ] [Dust] elasticsearch/r61LcC5IQe6fI8glu5F9tA
+[2017-04-12 15:31:34,767][INFO ][cluster.service          ] [Dust] new_master [Dust][r61LcC5IQe6fI8glu5F9tA][quangminh-K56CB][inet[/192.168.1.89:9300]], reason: zen-disco-join (elected_as_master)
+[2017-04-12 15:31:34,803][INFO ][http                     ] [Dust] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.89:9200]}
+[2017-04-12 15:31:34,804][INFO ][node                     ] [Dust] started
+[2017-04-12 15:31:34,904][INFO ][gateway                  ] [Dust] recovered [4] indices into cluster_state
+[2017-04-12 16:00:26,620][INFO ][node                     ] [Dust] stopping ...
+[2017-04-12 16:00:26,766][INFO ][node                     ] [Dust] stopped
+[2017-04-12 16:00:26,766][INFO ][node                     ] [Dust] closing ...
+[2017-04-12 16:00:26,774][INFO ][node                     ] [Dust] closed

@@ -1,0 +1,11 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/smartstaff?characterEncoding=utf8&useUnicode=true&connectionCollation=utf8_general_ci&characterSetResults=utf8
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+multipart.maxFileSize=10Mb
+server.port=8080
+news.page.url=http://localhost/test/UploadNew/
+docs.page.url=http://localhost/test/UploadDoc/
+docs.directory=docs
+news.directory=image
+root.directory=C:\\xampp\\htdocs

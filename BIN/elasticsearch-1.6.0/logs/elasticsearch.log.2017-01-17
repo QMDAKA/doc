@@ -1,0 +1,70 @@
+[2017-01-17 10:59:23,970][INFO ][node                     ] [Blob] version[1.6.0], pid[8223], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-01-17 10:59:23,971][INFO ][node                     ] [Blob] initializing ...
+[2017-01-17 10:59:24,223][INFO ][plugins                  ] [Blob] loaded [analysis-icu], sites []
+[2017-01-17 10:59:24,675][INFO ][env                      ] [Blob] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [12gb], net total_space [34.8gb], types [ext4]
+[2017-01-17 10:59:29,651][INFO ][node                     ] [Blob] initialized
+[2017-01-17 10:59:29,651][INFO ][node                     ] [Blob] starting ...
+[2017-01-17 10:59:29,893][INFO ][transport                ] [Blob] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.137.160:9300]}
+[2017-01-17 10:59:30,018][INFO ][discovery                ] [Blob] elasticsearch/yTg-RNI2QpyVSCXpIWC6cQ
+[2017-01-17 10:59:33,808][INFO ][cluster.service          ] [Blob] new_master [Blob][yTg-RNI2QpyVSCXpIWC6cQ][quangminh-K56CB][inet[/192.168.137.160:9300]], reason: zen-disco-join (elected_as_master)
+[2017-01-17 10:59:33,935][INFO ][http                     ] [Blob] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.137.160:9200]}
+[2017-01-17 10:59:33,936][INFO ][node                     ] [Blob] started
+[2017-01-17 10:59:34,293][INFO ][gateway                  ] [Blob] recovered [1] indices into cluster_state
+[2017-01-17 10:59:35,567][WARN ][index.mapper             ] [Blob] [viblo] Type [react.js] contains a '.', it is recommended not to include it within a type name
+[2017-01-17 11:04:59,926][INFO ][node                     ] [Blob] stopping ...
+[2017-01-17 11:05:00,067][INFO ][node                     ] [Blob] stopped
+[2017-01-17 11:05:00,068][INFO ][node                     ] [Blob] closing ...
+[2017-01-17 11:05:00,074][INFO ][node                     ] [Blob] closed
+[2017-01-17 11:15:51,509][INFO ][node                     ] [Mirage] version[1.6.0], pid[9903], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-01-17 11:15:51,510][INFO ][node                     ] [Mirage] initializing ...
+[2017-01-17 11:15:51,549][INFO ][plugins                  ] [Mirage] loaded [analysis-icu], sites []
+[2017-01-17 11:15:51,593][INFO ][env                      ] [Mirage] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [11.6gb], net total_space [34.8gb], types [ext4]
+[2017-01-17 11:15:54,375][INFO ][node                     ] [Mirage] initialized
+[2017-01-17 11:15:54,376][INFO ][node                     ] [Mirage] starting ...
+[2017-01-17 11:15:54,532][INFO ][transport                ] [Mirage] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.137.160:9300]}
+[2017-01-17 11:15:54,558][INFO ][discovery                ] [Mirage] elasticsearch/K6lKv2dFSrqs6_LLAUXzZw
+[2017-01-17 11:15:58,356][INFO ][cluster.service          ] [Mirage] new_master [Mirage][K6lKv2dFSrqs6_LLAUXzZw][quangminh-K56CB][inet[/192.168.137.160:9300]], reason: zen-disco-join (elected_as_master)
+[2017-01-17 11:15:58,485][INFO ][http                     ] [Mirage] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.137.160:9200]}
+[2017-01-17 11:15:58,486][INFO ][node                     ] [Mirage] started
+[2017-01-17 11:15:58,661][INFO ][gateway                  ] [Mirage] recovered [1] indices into cluster_state
+[2017-01-17 11:15:59,484][WARN ][index.mapper             ] [Mirage] [viblo] Type [react.js] contains a '.', it is recommended not to include it within a type name
+[2017-01-17 11:16:47,782][INFO ][node                     ] [Mirage] stopping ...
+[2017-01-17 11:16:47,936][INFO ][node                     ] [Mirage] stopped
+[2017-01-17 11:16:47,936][INFO ][node                     ] [Mirage] closing ...
+[2017-01-17 11:16:47,942][INFO ][node                     ] [Mirage] closed
+[2017-01-17 11:24:32,706][INFO ][node                     ] [D-Man] version[1.6.0], pid[10999], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-01-17 11:24:32,707][INFO ][node                     ] [D-Man] initializing ...
+[2017-01-17 11:24:32,759][INFO ][plugins                  ] [D-Man] loaded [analysis-icu], sites []
+[2017-01-17 11:24:32,813][INFO ][env                      ] [D-Man] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [11.5gb], net total_space [34.8gb], types [ext4]
+[2017-01-17 11:24:36,142][INFO ][node                     ] [D-Man] initialized
+[2017-01-17 11:24:36,144][INFO ][node                     ] [D-Man] starting ...
+[2017-01-17 11:24:36,271][INFO ][transport                ] [D-Man] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.137.160:9300]}
+[2017-01-17 11:24:36,296][INFO ][discovery                ] [D-Man] elasticsearch/FJyUV4cTR7yeHW3nIBqCoQ
+[2017-01-17 11:24:40,084][INFO ][cluster.service          ] [D-Man] new_master [D-Man][FJyUV4cTR7yeHW3nIBqCoQ][quangminh-K56CB][inet[/192.168.137.160:9300]], reason: zen-disco-join (elected_as_master)
+[2017-01-17 11:24:40,270][INFO ][http                     ] [D-Man] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.137.160:9200]}
+[2017-01-17 11:24:40,271][INFO ][node                     ] [D-Man] started
+[2017-01-17 11:24:42,616][INFO ][gateway                  ] [D-Man] recovered [1] indices into cluster_state
+[2017-01-17 11:24:43,642][WARN ][index.mapper             ] [D-Man] [viblo] Type [react.js] contains a '.', it is recommended not to include it within a type name
+[2017-01-17 11:25:13,260][INFO ][cluster.metadata         ] [D-Man] [.kibana] creating index, cause [api], templates [], shards [1]/[1], mappings []
+[2017-01-17 11:25:13,665][INFO ][cluster.metadata         ] [D-Man] [.kibana] update_mapping [config] (dynamic)
+[2017-01-17 11:27:10,756][INFO ][node                     ] [D-Man] stopping ...
+[2017-01-17 11:27:10,909][INFO ][node                     ] [D-Man] stopped
+[2017-01-17 11:27:10,910][INFO ][node                     ] [D-Man] closing ...
+[2017-01-17 11:27:10,918][INFO ][node                     ] [D-Man] closed
+[2017-01-17 11:28:25,575][INFO ][node                     ] [Windshear] version[1.6.0], pid[11476], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-01-17 11:28:25,575][INFO ][node                     ] [Windshear] initializing ...
+[2017-01-17 11:28:25,613][INFO ][plugins                  ] [Windshear] loaded [analysis-icu], sites []
+[2017-01-17 11:28:25,653][INFO ][env                      ] [Windshear] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [11.5gb], net total_space [34.8gb], types [ext4]
+[2017-01-17 11:28:28,396][INFO ][node                     ] [Windshear] initialized
+[2017-01-17 11:28:28,398][INFO ][node                     ] [Windshear] starting ...
+[2017-01-17 11:28:28,500][INFO ][transport                ] [Windshear] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.137.160:9300]}
+[2017-01-17 11:28:28,536][INFO ][discovery                ] [Windshear] elasticsearch/llPJ4YUiR1CP8Mhut3jE7w
+[2017-01-17 11:28:32,356][INFO ][cluster.service          ] [Windshear] new_master [Windshear][llPJ4YUiR1CP8Mhut3jE7w][quangminh-K56CB][inet[/192.168.137.160:9300]], reason: zen-disco-join (elected_as_master)
+[2017-01-17 11:28:32,519][INFO ][http                     ] [Windshear] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.137.160:9200]}
+[2017-01-17 11:28:32,520][INFO ][node                     ] [Windshear] started
+[2017-01-17 11:28:32,695][INFO ][gateway                  ] [Windshear] recovered [2] indices into cluster_state
+[2017-01-17 11:28:33,522][WARN ][index.mapper             ] [Windshear] [viblo] Type [react.js] contains a '.', it is recommended not to include it within a type name
+[2017-01-17 11:37:02,743][INFO ][node                     ] [Windshear] stopping ...
+[2017-01-17 11:37:02,872][INFO ][node                     ] [Windshear] stopped
+[2017-01-17 11:37:02,873][INFO ][node                     ] [Windshear] closing ...
+[2017-01-17 11:37:02,881][INFO ][node                     ] [Windshear] closed

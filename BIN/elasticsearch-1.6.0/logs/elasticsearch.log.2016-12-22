@@ -1,0 +1,17 @@
+[2016-12-22 15:37:15,689][INFO ][node                     ] [Maria Hill] version[1.6.0], pid[14047], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2016-12-22 15:37:15,707][INFO ][node                     ] [Maria Hill] initializing ...
+[2016-12-22 15:37:15,929][INFO ][plugins                  ] [Maria Hill] loaded [analysis-icu], sites []
+[2016-12-22 15:37:16,084][INFO ][env                      ] [Maria Hill] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [14.9gb], net total_space [34.8gb], types [ext4]
+[2016-12-22 15:37:20,806][INFO ][node                     ] [Maria Hill] initialized
+[2016-12-22 15:37:20,807][INFO ][node                     ] [Maria Hill] starting ...
+[2016-12-22 15:37:20,978][INFO ][transport                ] [Maria Hill] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.137.210:9300]}
+[2016-12-22 15:37:21,028][INFO ][discovery                ] [Maria Hill] elasticsearch/cKnEd_o7Qfynh5curr_wRQ
+[2016-12-22 15:37:24,844][INFO ][cluster.service          ] [Maria Hill] new_master [Maria Hill][cKnEd_o7Qfynh5curr_wRQ][quangminh-K56CB][inet[/192.168.137.210:9300]], reason: zen-disco-join (elected_as_master)
+[2016-12-22 15:37:24,935][INFO ][http                     ] [Maria Hill] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.137.210:9200]}
+[2016-12-22 15:37:24,936][INFO ][node                     ] [Maria Hill] started
+[2016-12-22 15:37:25,183][INFO ][gateway                  ] [Maria Hill] recovered [1] indices into cluster_state
+[2016-12-22 15:37:26,243][WARN ][index.mapper             ] [Maria Hill] [viblo] Type [react.js] contains a '.', it is recommended not to include it within a type name
+[2016-12-22 16:34:37,172][INFO ][node                     ] [Maria Hill] stopping ...
+[2016-12-22 16:34:39,887][INFO ][node                     ] [Maria Hill] stopped
+[2016-12-22 16:34:39,890][INFO ][node                     ] [Maria Hill] closing ...
+[2016-12-22 16:34:39,922][INFO ][node                     ] [Maria Hill] closed

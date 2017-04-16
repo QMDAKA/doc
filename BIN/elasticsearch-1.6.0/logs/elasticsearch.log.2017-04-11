@@ -1,0 +1,16 @@
+[2017-04-11 22:26:51,075][INFO ][node                     ] [Raymond Sikorsky] version[1.6.0], pid[21863], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2017-04-11 22:26:51,076][INFO ][node                     ] [Raymond Sikorsky] initializing ...
+[2017-04-11 22:26:51,327][INFO ][plugins                  ] [Raymond Sikorsky] loaded [analysis-icu], sites []
+[2017-04-11 22:26:51,531][INFO ][env                      ] [Raymond Sikorsky] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [6gb], net total_space [34.8gb], types [ext4]
+[2017-04-11 22:26:56,539][INFO ][node                     ] [Raymond Sikorsky] initialized
+[2017-04-11 22:26:56,539][INFO ][node                     ] [Raymond Sikorsky] starting ...
+[2017-04-11 22:26:56,777][INFO ][transport                ] [Raymond Sikorsky] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.1.89:9300]}
+[2017-04-11 22:26:56,813][INFO ][discovery                ] [Raymond Sikorsky] elasticsearch/12mxeK3rRLWQUNHcwClXzg
+[2017-04-11 22:27:00,601][INFO ][cluster.service          ] [Raymond Sikorsky] new_master [Raymond Sikorsky][12mxeK3rRLWQUNHcwClXzg][quangminh-K56CB][inet[/192.168.1.89:9300]], reason: zen-disco-join (elected_as_master)
+[2017-04-11 22:27:00,649][INFO ][http                     ] [Raymond Sikorsky] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.1.89:9200]}
+[2017-04-11 22:27:00,649][INFO ][node                     ] [Raymond Sikorsky] started
+[2017-04-11 22:27:00,884][INFO ][gateway                  ] [Raymond Sikorsky] recovered [4] indices into cluster_state
+[2017-04-11 22:50:52,358][INFO ][node                     ] [Raymond Sikorsky] stopping ...
+[2017-04-11 22:50:52,416][INFO ][node                     ] [Raymond Sikorsky] stopped
+[2017-04-11 22:50:52,416][INFO ][node                     ] [Raymond Sikorsky] closing ...
+[2017-04-11 22:50:52,421][INFO ][node                     ] [Raymond Sikorsky] closed

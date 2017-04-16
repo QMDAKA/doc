@@ -1,0 +1,17 @@
+[2016-12-08 11:03:36,312][INFO ][node                     ] [Wendell Vaughn] version[1.6.0], pid[9047], build[cdd3ac4/2015-06-09T13:36:34Z]
+[2016-12-08 11:03:36,313][INFO ][node                     ] [Wendell Vaughn] initializing ...
+[2016-12-08 11:03:36,351][INFO ][plugins                  ] [Wendell Vaughn] loaded [analysis-icu], sites []
+[2016-12-08 11:03:36,406][INFO ][env                      ] [Wendell Vaughn] using [1] data paths, mounts [[/ (/dev/sda8)]], net usable_space [16.2gb], net total_space [34.8gb], types [ext4]
+[2016-12-08 11:03:38,870][INFO ][node                     ] [Wendell Vaughn] initialized
+[2016-12-08 11:03:38,870][INFO ][node                     ] [Wendell Vaughn] starting ...
+[2016-12-08 11:03:39,035][INFO ][transport                ] [Wendell Vaughn] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/192.168.7.58:9300]}
+[2016-12-08 11:03:39,071][INFO ][discovery                ] [Wendell Vaughn] elasticsearch/JKlmtGGlRcG3z4QA1zK0Fw
+[2016-12-08 11:03:42,891][INFO ][cluster.service          ] [Wendell Vaughn] new_master [Wendell Vaughn][JKlmtGGlRcG3z4QA1zK0Fw][quangminh-K56CB][inet[/192.168.7.58:9300]], reason: zen-disco-join (elected_as_master)
+[2016-12-08 11:03:43,021][INFO ][http                     ] [Wendell Vaughn] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/192.168.7.58:9200]}
+[2016-12-08 11:03:43,022][INFO ][node                     ] [Wendell Vaughn] started
+[2016-12-08 11:03:43,605][INFO ][gateway                  ] [Wendell Vaughn] recovered [1] indices into cluster_state
+[2016-12-08 11:03:44,141][WARN ][index.mapper             ] [Wendell Vaughn] [viblo] Type [react.js] contains a '.', it is recommended not to include it within a type name
+[2016-12-08 11:52:15,484][INFO ][node                     ] [Wendell Vaughn] stopping ...
+[2016-12-08 11:52:15,531][INFO ][node                     ] [Wendell Vaughn] stopped
+[2016-12-08 11:52:15,531][INFO ][node                     ] [Wendell Vaughn] closing ...
+[2016-12-08 11:52:15,537][INFO ][node                     ] [Wendell Vaughn] closed

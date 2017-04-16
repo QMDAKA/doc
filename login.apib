@@ -1,0 +1,50 @@
+FORMAT: 1A
+HOST: http://103.18.7.212:32784/
+
+# Login API
+## Descriptions
+Đăng nhập vào hệ thống mail
+## login [/users/login]
+
+### Login into mail server  [POST]
+
++ Request (application/json)
+
+    + Body
+
+            {
+                "username":"minhvq_tt@runsystem.net",
+                "password":"minh1995"
+            }
+
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+                "staff":{
+                  "birthday": "1492313333240",
+                  "authcode": "c36f64679e33512de870eb4449674615",
+                  "email": "minhvq_tt@runsystem.net",
+                  "worked_at": "1492313333240"
+                  }
+            }
+
++ Response 401 (application/json)
+
+    + Body
+
+            {
+                "message":"Login failed"
+
+            }
+
++ Response 408 (application/json)
+
+    + Body
+
+            {
+                "message":"Request time out. Check your LDAP"
+
+            }

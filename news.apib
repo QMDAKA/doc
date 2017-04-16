@@ -1,0 +1,218 @@
+FORMAT: 1A
+HOST: http://103.18.7.212:32784/
+
+# Get news data API
+## Descriptions
+Trả về thông tin ,thêm sửa, xóa bài viết.
+## get list news [/news/{?page,size}]
+
+### Get all list news [GET]
++ Parameters
+
+    + page: `1` (integer)
+    + size: '15'(integer)
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+ + Body
+
+            {
+                "content": [
+                {
+                    "id":5,
+                    "tilte":"Open authentication",
+                    "body":"<p>Hello world</p>"
+                    "image": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png",
+
+                },
+                {
+                    "id":6,
+                    "tilte":"Open authentication",
+                    "body":"<p>Hello world</p>"
+                    "image": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png",
+
+                },
+                ],
+                "totalPages": 2,
+                "totalElements": 18,
+                "last": false,
+                "sort": null,
+                "numberOfElements": 15,
+                "first": true,
+                "size": 15,
+                "number": 0
+            }
+
+### Create news [POST]
+## Descriptions
+Tạo mới thông tin bai viet
++ Request (application/json)
+
+   + Headers
+
+            oauthcode:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
+    + Body
+
+            {
+                "tilte":"Open authentication",
+                "body":"<p>Hello world</p>"
+                "image": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png"
+            }
+
+
+
+
+
++ Response 201 (application/json)
+    + Body
+
+                {
+                    "message" : "OK"
+                }
+
+
+
+
+
+
+
+# Group  api by id
+
+
+#  news data by api
+
+## news by id [/news/{id}]
+## Descriptions
+Trả thông tin bai viet theo id
+
++ Parameters
+    + id: '1' (integer)
+### Get 1 item [GET]
+
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+ + Body
+
+            {
+                "id":1,
+                "tilte":"Open authentication",
+                "body":"<p>Hello world</p>"
+                "image": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png"
+            }
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+              "message":"Not Found"
+            }
+
+
+
+### Delete 1 item [DELETE]
+## Descriptions
+xóa về thông tin bai viet theo id
++ Request (application/json)
+
+    + Headers
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+              "message":"OK"
+            }
+
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+              "message":"Not Found"
+            }
+
+
+### Put 1 item [PUT]
+## Descriptions
+Cập nhật thông tin bai viet theo id
++ Request (application/json)
+   + Headers
+
+            oauthcode:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
+    + Body
+
+            {
+                "tilte":"Open authentication",
+                "body":"<p>Hello world</p>"
+                "image": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png"
+            }
+
+
+
+
+
++ Response 200 (application/json)
+
+    + Body
+
+            {
+              "message":"OK"
+            }
+
+
++ Response 404 (application/json)
+
+    + Body
+
+            {
+              "message":"Not Found"
+            }
+
+
+
+
+# Group search api
+# Get news by query search
+## Descriptions
+Trả về thông tin bai viet theo từ khóa từ kiếm.
+
+## get news by id [/news/searchByTitle/{?page,size,title}]
++ Parameters
+    + page: `1` (integer)
+    + size: '15'(integer)
+    + title: 'open'(string)
+### Get list item by search [GET]
+
++ Request (application/json)
+
+    + Headers
+
+
+            oauthcode: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
+
++ Response 200 (application/json)
+ + Body
+
+
+            {
+                "id":1,
+                "tilte":"Open authentication",
+                "body":"<p>Hello world</p>"
+                "image": "http://103.18.7.212:32781/test/UploadNew/js/file/source/1.png"
+            }
